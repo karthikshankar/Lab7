@@ -143,9 +143,9 @@ public class Colosseum {
         System.out.println(firstPokemon.name + " has " + pok1 + " hit points");
         System.out.println(secondPokemon.name + " has " + pok2 + " hit points");
 
-        if (pok1 > pok2) {
+        if (pok1 < pok2) {
             System.out.println(firstPokemon.name + " is currently ahead!");
-        } else if (pok1 < pok2) {
+        } else if (pok1 > pok2) {
             System.out.println(secondPokemon.name + " is currently ahead!");
         } else if (pok1 == pok2) {
             System.out.println("It's a tie!");
@@ -165,9 +165,9 @@ public class Colosseum {
         System.out.println(firstPokemon.name + " has " + pok1 + " hit points");
         System.out.println(secondPokemon.name + " has " + pok2 + " hit points");
 
-        if (pok1 > pok2) {
+        if (pok1 < pok2) {
             System.out.println(firstPokemon.name + " is the winner!");
-        } else if (pok1 < pok2) {
+        } else if (pok1 > pok2) {
             System.out.println(secondPokemon.name + " is the winner!");
         }
     }
